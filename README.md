@@ -1,75 +1,42 @@
-Legacy Modernization Framework
-Framework para analisar modernização de sistemas legados sob a ótica de Produto e Business Analysis.
-1. Entendimento do legado
-Mapear:
-módulos;
-usuários;
-processos;
-integrações;
-regras;
-dados;
-dependências;
-limitações;
-incidentes;
-custos operacionais.
-2. Inventário de funcionalidades
-ID	Funcionalidade	Sistema atual	Usuário	Criticidade
-3. Mapeamento AS-IS
-Documentar:
-fluxo atual;
-regras existentes;
-exceções;
-sistemas;
-entradas;
-saídas;
-responsáveis.
-4. Gap Analysis
-Tema	AS-IS	Problema	TO-BE
-5. Regras de negócio
-Documentar regras explícitas e regras que hoje existem apenas no código ou no conhecimento operacional.
-6. Requisitos
-Separar em:
-funcionais;
-não funcionais;
-integração;
-segurança;
-auditoria;
-dados;
-performance.
-7. Backlog
-Estruturar:
-```text
-Iniciativa
-  ↓
-Épico
-  ↓
-Feature
-  ↓
-História
-  ↓
-Critérios de aceite
-```
-8. Priorização
-Avaliar:
-impacto no cliente;
-risco operacional;
-compliance;
-dependência técnica;
-esforço;
-valor de negócio.
-9. Estratégia de migração
-Possíveis abordagens:
-Strangler Pattern
-migração incremental
-coexistência
-feature flags
-APIs de compatibilidade
-10. Métricas
-redução de incidentes;
-redução de retrabalho;
-lead time;
-tempo de processamento;
-conversão;
-SLA;
-disponibilidade;
-satisfação do usuário.  
+# Portfólio Profissional — Rozmari Ferreira
+
+Site estático, responsivo e pronto para publicação no **GitHub Pages**.
+
+## Estrutura
+
+- `index.html` — conteúdo principal
+- `styles.css` — identidade visual e responsividade
+- `script.js` — menu mobile, animações e contadores
+
+## Publicar no GitHub Pages
+
+1. Crie um novo repositório no GitHub, por exemplo: `portfolio`.
+2. Envie os arquivos deste projeto para a raiz do repositório.
+3. No GitHub, abra **Settings > Pages**.
+4. Em **Build and deployment**, escolha **Deploy from a branch**.
+5. Selecione a branch `main` e a pasta `/root`.
+6. Salve. O GitHub exibirá a URL pública do site.
+
+## Personalizações importantes antes de publicar
+
+No final de `index.html`, altere os links dos botões **LinkedIn** e **GitHub** para seus perfis reais.
+
+Você também pode:
+
+- trocar o monograma `RF` por uma foto profissional;
+- adicionar um botão para baixar o currículo em PDF;
+- incluir novos cases;
+- conectar um formulário de contato com Formspree, Netlify Forms ou serviço semelhante;
+- adicionar Google Analytics ou Microsoft Clarity.
+
+## Características
+
+- HTML, CSS e JavaScript puros;
+- sem framework e sem etapa de build;
+- compatível com GitHub Pages;
+- layout responsivo;
+- SEO básico;
+- navegação mobile;
+- animações discretas;
+- indicadores animados;
+- estrutura executiva para Produto, CX e Jornadas Digitais.
